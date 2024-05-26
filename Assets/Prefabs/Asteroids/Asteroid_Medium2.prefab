@@ -14,10 +14,10 @@ GameObject:
   - component: {fileID: -8363195973269564571}
   - component: {fileID: -161008146853808282}
   - component: {fileID: 3876943570669266317}
-  - component: {fileID: 1031314298211404012}
   - component: {fileID: 7117508158127478856}
   - component: {fileID: 7268052423728760054}
   - component: {fileID: -4507694783212908649}
+  - component: {fileID: -3640473860758563607}
   m_Layer: 0
   m_Name: Asteroid_Medium2
   m_TagString: Enemy
@@ -179,20 +179,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.34, y: 0.26}
   m_EdgeRadius: 0
---- !u!114 &1031314298211404012
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5102064894787113765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef37c11e6bfc8054b89769aa2fb1e0f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyTag: Player
-  damage: 7
 --- !u!114 &7117508158127478856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,3 +219,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   smallerAsteroid: {fileID: 9028375448903000112, guid: 2fac548208a252f488954610c16ad6b3, type: 3}
+--- !u!114 &-3640473860758563607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5102064894787113765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ed1a91c46771044999f9853002fd522, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyTag: Player
+  damage: 2

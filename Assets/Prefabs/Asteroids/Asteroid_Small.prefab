@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 749182853862502798}
   - component: {fileID: -189126282800866667}
   - component: {fileID: -8318552220311399462}
-  - component: {fileID: -629189245962093249}
   - component: {fileID: 8219488176938258570}
   - component: {fileID: 4961725079126906414}
+  - component: {fileID: 132184844706950272}
   m_Layer: 0
   m_Name: Asteroid_Small
   m_TagString: Enemy
@@ -178,20 +178,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.15, y: 0.14}
   m_EdgeRadius: 0
---- !u!114 &-629189245962093249
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9028375448903000112}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef37c11e6bfc8054b89769aa2fb1e0f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyTag: Player
-  damage: 3
 --- !u!114 &8219488176938258570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,3 +205,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosionType: 0
+--- !u!114 &132184844706950272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9028375448903000112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ed1a91c46771044999f9853002fd522, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyTag: Player
+  damage: 1
